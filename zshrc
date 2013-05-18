@@ -11,6 +11,7 @@ ZSH_THEME="robbyrussell"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi="vim"
+alias top="top -s1 -o cpu -R -F"
 
 # Set to this to use case-sensitive completion
 CASE_SENSITIVE="true"
@@ -44,3 +45,4 @@ alias ssh="/usr/local/bin/ssh"
 # virtualenvwrapper
 export WORKON_HOME=~/.virtualenvs
 source /Library/Frameworks/Python.framework/Versions/2.7/bin/virtualenvwrapper.sh
+
