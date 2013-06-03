@@ -1,0 +1,12 @@
+[user]
+  name = Tim Cheung
+  email = thcheung@gmail.com 
+[core]
+  editor = /usr/bin/vim
+[alias]
+  st = status
+  ci = commit
+  co = checkout
+  pom = push origin master
+[interactive]
+  singlekey = true
